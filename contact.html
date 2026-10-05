@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta name="description" content="Contact CadenStar for BIM services for global project teams, BIM modelling, architectural BIM, MEP BIM services, BIM consulting and project delivery support."/>
+<meta content="Contact CadenStar for BIM services for global project teams, BIM modelling, architectural BIM, MEP BIM services, BIM consulting and project delivery support." name="description"/>
 <meta content="CadenStar Pvt Ltd" name="author"/>
 <title>Contact CadenStar | BIM Services</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -14,10 +14,10 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
 <link href="assets/styles.css" rel="stylesheet"/>
-<link rel="canonical" href="https://www.cadenstar.com/contact.html"/>
-<meta property="og:title" content="Contact CadenStar | BIM Services"/>
-<meta property="og:description" content="Contact CadenStar for BIM services for global project teams, BIM modelling, architectural BIM, MEP BIM services, BIM consulting and project delivery support."/>
-<meta property="og:url" content="https://www.cadenstar.com/contact.html"/>
+<link href="https://www.cadenstar.com/contact.html" rel="canonical"/>
+<meta content="Contact CadenStar | BIM Services" property="og:title"/>
+<meta content="Contact CadenStar for BIM services for global project teams, BIM modelling, architectural BIM, MEP BIM services, BIM consulting and project delivery support." property="og:description"/>
+<meta content="https://www.cadenstar.com/contact.html" property="og:url"/>
 <meta content="assets/images/logo.png" property="og:image"/>
 <script type="application/ld+json">
    {
@@ -32,23 +32,21 @@
     "serviceType":["BIM Services","BIM Modelling","Architectural BIM","Structural BIM","MEP BIM Services","Steel Detailing","BIM Consulting","Quantity Take-Off","CAD Documentation"]
   }
   </script>
-<meta name="keywords" content="BIM services, BIM modeling services for global project teams, BIM modeling services for global project teams, BIM companies, BIM companies in Bangalore, BIM companies in Mumbai, BIM consulting, BIM MEP services, architectural BIM services"/>
-<meta name="robots" content="index, follow, max-image-preview:large"/>
-<meta name="theme-color" content="#07111f"/>
+<meta content="BIM services, BIM modeling services for global project teams, BIM modeling services for global project teams, BIM companies, BIM companies in Bangalore, BIM companies in Mumbai, BIM consulting, BIM MEP services, architectural BIM services" name="keywords"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="#07111f" name="theme-color"/>
 </head>
 <body>
 <header id="header">
 <div class="container nav">
 <a aria-label="CadenStar home" class="brand" href="index.html">
-<img alt="CadenStar BIM Solutions logo" class="brand-logo" src="assets/images/image-01.png"/ loading="lazy" decoding="async">
+<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/image-01.png"/>
 </a>
 <nav class="nav-links" id="navLinks">
 <a href="index.html">
       Home
      </a>
-<a href="services.html">
-      Services
-     </a>
+
 <a href="solutions.html">
       Solutions
      </a>
@@ -185,7 +183,11 @@
 <label for="phone">
          Phone
         </label>
-<input id="phone" name="phone" placeholder="+91"/>
+<div class="phone-group">
+<div class="cc" id="cc"><button type="button" class="cc-btn" id="ccBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Select country code"><img class="cc-flag" id="ccFlag" alt="" src="assets/flags/in.svg"/><span id="ccCode">+91</span><i class="cc-caret"></i></button>
+<div class="cc-panel" id="ccPanel" hidden><div class="cc-search"><i class="fa-solid fa-magnifying-glass"></i><input type="search" id="ccSearch" placeholder="Search country or code" autocomplete="off" aria-label="Search country"/></div><ul class="cc-list" id="ccList" role="listbox"></ul></div>
+<input type="hidden" id="phoneCode" name="phoneCode" value="+91"/></div><input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="10-digit mobile number" maxlength="10"/></div>
+<small class="field-error" id="phoneErr" role="alert"></small>
 </div>
 </div>
 <div class="field">
@@ -215,9 +217,9 @@
 <div class="container">
 <div class="footer-grid">
 <div>
-<a class="brand" href="index.html">
-<img alt="CadenStar BIM Solutions logo" class="brand-logo" src="assets/images/image-01.png"/ loading="lazy" decoding="async">
-</a>
+<a class="brand active" href="index.html">
+<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/image-01.png">
+</img></a>
 <p>
        Intelligent BIM coordination and engineering documentation for builders, architects, consultants and steel fabricators — from design intent to construction-ready delivery.
       </p>
@@ -230,7 +232,7 @@
 <li>
 </li>
 <li>
-<a href="services.html">
+<a href="solutions.html">
          Services
         </a>
 </li>
@@ -256,18 +258,7 @@
 </li>
 </ul>
 </div>
-<div>
-<h4>
-       Services
-      </h4>
-<ul>
-<li><a href="services.html">BIM Modelling</a></li>
-<li><a href="services.html">Structural Design Analysis</a></li>
-<li><a href="services.html">Steel Detailing</a></li>
-<li><a href="services.html">MEP Coordination</a></li>
-<li><a href="services.html">BOQ &amp; Documentation</a></li>
-</ul>
-</div>
+<div><h4>Solutions</h4><ul><li><a href="solutions.html#bim-modelling">BIM Modelling</a></li><li><a href="solutions.html#clash-detection">Clash Detection</a></li><li><a href="solutions.html#quantity-take-off">Quantity Take-Off</a></li><li><a href="solutions.html#steel-detailing">Steel Detailing</a></li><li><a href="solutions.html#construction-coordination">Construction Coordination</a></li><li><a href="solutions.html#shop-fabrication-drawings">Shop &amp; Fabrication Drawings</a></li><li><a href="solutions.html#mep-hvac-coordination">MEP &amp; HVAC Coordination</a></li><li><a href="solutions.html#structural-bim">Structural BIM</a></li><li><a href="solutions.html#cad-documentation">CAD Documentation</a></li><li><a href="solutions.html#structural-design-analysis">Structural Design Analysis</a></li><li><a href="solutions.html#project-coordination">Project Coordination</a></li></ul></div>
 <div>
 <h4>
        Contact
@@ -299,6 +290,47 @@
 <div class="cursor-glow" id="cursorGlow">
 </div>
 <script>
+(function(){
+var C=[{"n":"India","i":"IN","d":"91","min":10,"max":10,"p":"[6-9]\\d{9}","note":"starting with 6, 7, 8 or 9"},{"n":"United States","i":"US","d":"1","min":10,"max":10,"p":"[2-9]\\d{9}","note":""},{"n":"United Kingdom","i":"GB","d":"44","min":10,"max":10,"p":"","note":""},{"n":"United Arab Emirates","i":"AE","d":"971","min":9,"max":9,"p":"","note":""},{"n":"Australia","i":"AU","d":"61","min":9,"max":9,"p":"","note":""},{"n":"Saudi Arabia","i":"SA","d":"966","min":9,"max":9,"p":"","note":""},{"n":"Qatar","i":"QA","d":"974","min":8,"max":8,"p":"","note":""},{"n":"Canada","i":"CA","d":"1","min":10,"max":10,"p":"[2-9]\\d{9}","note":""},{"n":"Kuwait","i":"KW","d":"965","min":8,"max":8,"p":"","note":""},{"n":"Oman","i":"OM","d":"968","min":8,"max":8,"p":"","note":""},{"n":"Bahrain","i":"BH","d":"973","min":8,"max":8,"p":"","note":""},{"n":"New Zealand","i":"NZ","d":"64","min":8,"max":10,"p":"","note":""},{"n":"Singapore","i":"SG","d":"65","min":8,"max":8,"p":"","note":""},{"n":"Malaysia","i":"MY","d":"60","min":9,"max":10,"p":"","note":""},{"n":"Germany","i":"DE","d":"49","min":10,"max":11,"p":"","note":""},{"n":"France","i":"FR","d":"33","min":9,"max":9,"p":"","note":""},{"n":"Italy","i":"IT","d":"39","min":9,"max":10,"p":"","note":""},{"n":"Spain","i":"ES","d":"34","min":9,"max":9,"p":"","note":""},{"n":"Netherlands","i":"NL","d":"31","min":9,"max":9,"p":"","note":""},{"n":"Ireland","i":"IE","d":"353","min":9,"max":9,"p":"","note":""},{"n":"Switzerland","i":"CH","d":"41","min":9,"max":9,"p":"","note":""},{"n":"Sweden","i":"SE","d":"46","min":9,"max":9,"p":"","note":""},{"n":"Norway","i":"NO","d":"47","min":8,"max":8,"p":"","note":""},{"n":"Denmark","i":"DK","d":"45","min":8,"max":8,"p":"","note":""},{"n":"Belgium","i":"BE","d":"32","min":9,"max":9,"p":"","note":""},{"n":"South Africa","i":"ZA","d":"27","min":9,"max":9,"p":"","note":""},{"n":"Sri Lanka","i":"LK","d":"94","min":9,"max":9,"p":"","note":""},{"n":"Bangladesh","i":"BD","d":"880","min":10,"max":10,"p":"","note":""},{"n":"Nepal","i":"NP","d":"977","min":10,"max":10,"p":"","note":""},{"n":"Pakistan","i":"PK","d":"92","min":10,"max":10,"p":"","note":""},{"n":"Maldives","i":"MV","d":"960","min":7,"max":7,"p":"","note":""},{"n":"Bhutan","i":"BT","d":"975","min":8,"max":8,"p":"","note":""},{"n":"Mauritius","i":"MU","d":"230","min":8,"max":8,"p":"","note":""},{"n":"Egypt","i":"EG","d":"20","min":10,"max":10,"p":"","note":""},{"n":"China","i":"CN","d":"86","min":11,"max":11,"p":"","note":""},{"n":"Japan","i":"JP","d":"81","min":10,"max":10,"p":"","note":""},{"n":"South Korea","i":"KR","d":"82","min":9,"max":10,"p":"","note":""},{"n":"Hong Kong","i":"HK","d":"852","min":8,"max":8,"p":"","note":""},{"n":"Thailand","i":"TH","d":"66","min":9,"max":9,"p":"","note":""},{"n":"Indonesia","i":"ID","d":"62","min":9,"max":12,"p":"","note":""},{"n":"Philippines","i":"PH","d":"63","min":10,"max":10,"p":"","note":""},{"n":"Vietnam","i":"VN","d":"84","min":9,"max":9,"p":"","note":""},{"n":"Turkey","i":"TR","d":"90","min":10,"max":10,"p":"","note":""},{"n":"Israel","i":"IL","d":"972","min":9,"max":9,"p":"","note":""},{"n":"Jordan","i":"JO","d":"962","min":9,"max":9,"p":"","note":""},{"n":"Nigeria","i":"NG","d":"234","min":10,"max":10,"p":"","note":""},{"n":"Kenya","i":"KE","d":"254","min":9,"max":9,"p":"","note":""},{"n":"Ghana","i":"GH","d":"233","min":9,"max":9,"p":"","note":""},{"n":"Brazil","i":"BR","d":"55","min":10,"max":11,"p":"","note":""},{"n":"Mexico","i":"MX","d":"52","min":10,"max":10,"p":"","note":""},{"n":"Argentina","i":"AR","d":"54","min":10,"max":10,"p":"","note":""},{"n":"Russia","i":"RU","d":"7","min":10,"max":10,"p":"","note":""}],POP=['IN','US','GB','AE','AU','SA','QA'];
+var f=document.getElementById('contactForm'),ph=document.getElementById('phone'),err=document.getElementById('phoneErr'),
+cc=document.getElementById('cc'),btn=document.getElementById('ccBtn'),panel=document.getElementById('ccPanel'),list=document.getElementById('ccList'),q=document.getElementById('ccSearch'),
+flag=document.getElementById('ccFlag'),code=document.getElementById('ccCode'),hid=document.getElementById('phoneCode');
+if(!f||!ph||!cc)return;
+var cur=C[0],act=-1,shown=[];
+function esc(t){return t.replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+function item(c,k){return '<li role="option" data-i="'+C.indexOf(c)+'" class="'+(c===cur?'sel ':'')+'"><img class="cc-flag" alt="" src="assets/flags/'+c.i.toLowerCase()+'.svg"/><span class="cc-name">'+esc(c.n)+'</span><span class="cc-dial">+'+c.d+'</span></li>'}
+function render(){var t=q.value.trim().toLowerCase().replace(/^\+/,''),h='';shown=[];
+ if(!t){var pop=POP.map(function(i){return C.filter(function(c){return c.i===i})[0]});var rest=C.filter(function(c){return POP.indexOf(c.i)<0}).sort(function(a,b){return a.n.localeCompare(b.n)});
+  h='<li class="cc-head">Popular</li>'+pop.map(item).join('')+'<li class="cc-head">All countries</li>'+rest.map(item).join('');shown=pop.concat(rest)}
+ else{shown=C.filter(function(c){return c.n.toLowerCase().indexOf(t)>-1||c.i.toLowerCase()===t||c.d.indexOf(t)===0}).sort(function(a,b){var x=a.n.toLowerCase().indexOf(t)===0?0:1,y=b.n.toLowerCase().indexOf(t)===0?0:1;return x-y||a.n.localeCompare(b.n)});
+  h=shown.length?shown.map(item).join(''):'<li class="cc-empty">No country found</li>'}
+ list.innerHTML=h;act=-1}
+function open(){panel.hidden=false;btn.setAttribute('aria-expanded','true');q.value='';render();q.focus();var s=list.querySelector('.sel');if(s)list.scrollTop=Math.max(0,s.offsetTop-60)}
+function close(){panel.hidden=true;btn.setAttribute('aria-expanded','false')}
+function pick(c){cur=c;flag.src='assets/flags/'+c.i.toLowerCase()+'.svg';flag.alt=c.n;code.textContent='+'+c.d;hid.value='+'+c.d;close();btn.focus();setRule();ph.focus()}
+function mark(){var lis=list.querySelectorAll('li[data-i]');lis.forEach(function(l,k){l.classList.toggle('act',k===act)});if(lis[act])lis[act].scrollIntoView({block:'nearest'})}
+btn.addEventListener('click',function(){panel.hidden?open():close()});
+q.addEventListener('input',render);
+q.addEventListener('keydown',function(e){var n=list.querySelectorAll('li[data-i]').length;
+ if(e.key==='ArrowDown'){e.preventDefault();act=Math.min(n-1,act+1);mark()}
+ else if(e.key==='ArrowUp'){e.preventDefault();act=Math.max(0,act-1);mark()}
+ else if(e.key==='Enter'){e.preventDefault();var l=list.querySelectorAll('li[data-i]')[act<0?0:act];if(l)pick(C[+l.dataset.i])}
+ else if(e.key==='Escape'){close();btn.focus()}});
+list.addEventListener('click',function(e){var l=e.target.closest('li[data-i]');if(l)pick(C[+l.dataset.i])});
+document.addEventListener('click',function(e){if(!cc.contains(e.target))close()});
+function lenText(r){return r.min===r.max?r.min+'-digit':r.min+'–'+r.max+' digit'}
+function setRule(){ph.maxLength=cur.max;ph.placeholder=(cur.min===cur.max?cur.min:cur.min+'–'+cur.max)+'-digit number';ph.value=ph.value.replace(/\D/g,'').slice(0,cur.max);check(false)}
+function check(show){var v=ph.value,m='';
+ if(v){if(v.length<cur.min||v.length>cur.max)m='Enter a valid '+lenText(cur)+' number for +'+cur.d+(v.length<cur.min?' ('+v.length+' entered).':'.');
+  else if(cur.p&&!new RegExp('^'+cur.p+'$').test(v))m='Enter a valid +'+cur.d+' number'+(cur.note?' '+cur.note:'')+'.'}
+ ph.setCustomValidity(m);ph.classList.toggle('invalid',!!m&&show);err.textContent=show?m:'';return !m}
+ph.addEventListener('input',function(){ph.value=ph.value.replace(/\D/g,'').slice(0,cur.max);check(ph.value.length>=cur.min||ph.classList.contains('invalid'))});
+ph.addEventListener('blur',function(){check(true)});
+f.addEventListener('submit',function(e){if(!check(true)){e.preventDefault();e.stopImmediatePropagation();ph.focus();var m=document.getElementById('formMsg');if(m)m.textContent='Please correct the phone number before sending.'}});
+setRule();
+})();
+</script>
+<script>
    (function(){
 const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
 if(menuBtn&&navLinks){menuBtn.addEventListener('click',()=>navLinks.classList.toggle('open'));navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')))}
@@ -311,7 +343,7 @@ if(slides.length){let i=0,t;const show=n=>{i=(n+slides.length)%slides.length;sli
 const stats=document.querySelectorAll('.stat');
 if(stats.length){const so=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target.querySelector('strong');if(!el||el.dataset.done)return;el.dataset.done=1;const m=el.textContent.match(/\d+/);if(!m)return;const target=+m[0],st=performance.now(),tick=n=>{const p=Math.min((n-st)/900,1);el.textContent=Math.floor(p*target)+'+';if(p<1)requestAnimationFrame(tick);else el.classList.add('counting')};requestAnimationFrame(tick);so.unobserve(e.target)}),{threshold:.45});stats.forEach(s=>so.observe(s))}
 const form=document.getElementById('contactForm');
-if(form)form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form),subject=encodeURIComponent('CadenStar Project Enquiry - '+(d.get('service')||'BIM Services')),body=encodeURIComponent('Name: '+d.get('name')+'\nCompany: '+d.get('company')+'\nEmail: '+d.get('email')+'\nPhone: '+d.get('phone')+'\nService: '+d.get('service')+'\n\nProject Brief:\n'+d.get('message'));location.href='mailto:cadenstar.shamala@gmail.com?subject='+subject+'&body='+body;const m=document.getElementById('formMsg');if(m)m.textContent='Opening your email client to send the enquiry…'});
+if(form)form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form),subject=encodeURIComponent('CadenStar Project Enquiry - '+(d.get('service')||'BIM Services')),body=encodeURIComponent('Name: '+d.get('name')+'\nCompany: '+d.get('company')+'\nEmail: '+d.get('email')+'\nPhone: '+(d.get('phone')?(document.getElementById('phoneCode').value+' '+d.get('phone')):'')+'\nService: '+d.get('service')+'\n\nProject Brief:\n'+d.get('message'));location.href='mailto:cadenstar.shamala@gmail.com?subject='+subject+'&body='+body;const m=document.getElementById('formMsg');if(m)m.textContent='Opening your email client to send the enquiry…'});
 })();
   </script>
 </body>
