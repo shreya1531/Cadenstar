@@ -18,7 +18,7 @@
 <meta content="CadenStar | BIM Services, BIM Modelling &amp; BIM Coordination" property="og:title"/>
 <meta content="CadenStar provides BIM services for global project teams including BIM modelling, architectural BIM, structural BIM, MEP coordination, clash detection and construction-ready documentation." property="og:description"/>
 <meta content="https://www.cadenstar.com/" property="og:url"/>
-<meta content="assets/images/logo.png" property="og:image"/>
+<meta content="assets/images/cadenstar-logo.png" property="og:image"/>
 <script type="application/ld+json">
    {
     "@context":"https://schema.org",
@@ -29,7 +29,7 @@
     "areaServed":["Worldwide"],
     "telephone":"+91 7795168074",
     "email":"ShamalaLokesh@CadenStar.com",
-    "serviceType":["BIM Services","BIM Modelling","Architectural BIM","Structural BIM","MEP BIM Services","Steel Detailing","BIM Consulting","Quantity Take-Off","CAD Documentation"]
+    "serviceType":["BIM Services","BIM Modelling","Architectural BIM","Structural BIM","MEP BIM Services","Steel Detailing","BIM Consulting","Quantity Take-Off"]
   }
   </script>
 <meta content="BIM services, BIM modeling services for global project teams, BIM services, BIM modeling, BIM design, BIM coordination, BIM solutions, BIM companies, BIM company, building information modeling, building information management" name="keywords"/>
@@ -84,7 +84,7 @@
 /* Home/About merge: founder card uses a balanced portrait crop rather than an oversized face crop. */
 .home-founder{padding-top:70px;padding-bottom:110px}
 .home-founder .leader-card{grid-template-columns:minmax(420px,.92fr) 1.08fr;gap:28px;padding:22px}
-.home-founder .leader-card img{height:500px;object-fit:cover;object-position:center top;background:#07111f;border-radius:18px;display:block}
+.home-founder .leader-card img{height:500px;object-fit:cover;object-position:center top;background:transparent;border-radius:18px;display:block}
 @media(max-width:980px){.home-founder .leader-card{grid-template-columns:1fr}.home-founder .leader-card img{height:520px;object-position:center top}}
 @media(max-width:720px){.home-founder{padding-top:55px;padding-bottom:75px}.home-founder .leader-card{padding:12px}.home-founder .leader-card img{height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center top}}
 </style>
@@ -103,12 +103,34 @@
 .global-regions i{color:#2f80c9}
 @media(max-width:800px){.global-collab-inner{grid-template-columns:1fr;gap:30px}.global-globe img{width:min(290px,80%)}.global-collaboration{padding:70px 0}}
 </style>
+<!-- ABOUT IMAGE/TEXT HEIGHT MATCH --><style id="about-height-match">
+/* Keep the About section image and text at the same height on desktop */
+@media (min-width:981px){
+  .home-about .intro-grid{
+    align-items:stretch!important;
+  }
+  .home-about .intro-copy{
+    height:100%!important;
+  }
+  .home-about .intro-visual{
+    height:100%!important;
+    display:flex!important;
+    align-items:stretch!important;
+  }
+  .home-about .intro-visual img{
+    height:100%!important;
+    width:100%!important;
+    max-width:600px!important;
+    object-fit:fill!important;
+  }
+}
+</style>
 </head>
 <body>
 <header id="header">
 <div class="container nav">
 <a aria-label="CadenStar home" class="brand" href="index.html">
-<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/image-01.png"/>
+<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/cadenstar-logo.png"/>
 </a>
 <nav class="nav-links" id="navLinks">
 <a class="active" href="index.html">
@@ -144,15 +166,15 @@
 <main class="page-main">
 <section class="hero" id="home">
 <div aria-hidden="true" class="hero-slides">
-<div class="hero-slide active" style="background-image:url('assets/images/image-39.jpg')">
+<div class="hero-slide active" style="background-image:url('assets/images/hero-banner-1.jpg')">
 </div>
-<div class="hero-slide wide-banner" style="background-image:url('assets/images/image-40.png')">
+<div class="hero-slide wide-banner" style="background-image:url('assets/images/hero-banner-2.jpg')">
 </div>
-<div class="hero-slide wide-banner" style="background-image:url('assets/images/cadenstar-building-banner-hd.png')">
+<div class="hero-slide wide-banner" style="background-image:url('assets/images/hero-banner-3.png')">
 </div>
-<div class="hero-slide wide-banner" style="background-image:url('assets/images/image-41.png')">
+<div class="hero-slide wide-banner" style="background-image:url('assets/images/hero-banner-4.png')">
 </div>
-<div class="hero-slide wide-banner" style="background-image:url('assets/images/image-42.png')">
+<div class="hero-slide wide-banner" style="background-image:url('assets/images/hero-banner-5.png')">
 </div>
 </div>
 <div class="hero-overlay">
@@ -211,89 +233,28 @@
 </div>
 </div>
 </section>
-<section class="intro home-about" id="about">
+<section class="intro home-about about-aligned" id="about">
 <div class="container intro-grid">
 <div class="intro-copy reveal">
-<span class="eyebrow">
-       About CadenStar
-      </span>
-<h2>
-       Engineering information teams can trust.
-      </h2>
-<p class="global-connect-line">Globally connected with project teams across the UK, US, Middle East and Australia.</p>
-<p>
-       CadenStar BIM Solutions provides BIM modeling services and BIM modeling for architects, engineers, fabricators, builders and contractors. Our building information modeling services combine accurate digital coordination with practical project delivery, supported by more than 10 years of industry experience.
-      </p>
-<p style="margin-top:15px">
-       Our work includes architectural BIM, structural coordination, BIM design, build information modelling, BIM building modeling, BIM and 3d modeling for metro structures, industrial facilities, commercial buildings, educational campuses, hospitality and complex steel projects. This approach supports building information management and reliable construction documentation, including revit 3d modeling and BIM information modeling for coordinated deliverables.
-      </p>
-<div class="intro-points">
-<div class="point">
-<i class="fa-solid fa-crosshairs">
-</i>
-<strong>
-         High accuracy &amp; quality
-        </strong>
-</div>
-<div class="point">
-<i class="fa-regular fa-clock">
-</i>
-<strong>
-         Timely delivery
-        </strong>
-</div>
-<div class="point">
-<i class="fa-solid fa-earth-americas">
-</i>
-<strong>
-         Global project experience
-        </strong>
-</div>
-<div class="point">
-<i class="fa-solid fa-handshake">
-</i>
-<strong>
-         Client-focused approach
-        </strong>
-</div>
-</div>
+<span class="eyebrow">About CadenStar</span>
+<h2>Engineering Information | Coordinated with Confidence</h2>
+<p><strong>CadenStar is a globally connected BIM partner supporting project teams across the UK, US, Middle East and Australia.</strong></p>
+<p>We help architects, engineers, builders, contractors, consultants and fabricators turn design information into <strong>coordinated, accurate and construction-ready digital deliverables.</strong></p>
+<p>With more than <strong>10 years of industry experience</strong>, our team brings together architectural, structural, MEP and steel expertise to support projects from design development through coordination and construction documentation.</p>
+<p>Our capabilities span <strong>architectural BIM, structural and MEP coordination, clash detection, quantity take-offs, BOQ, steel detailing, fabrication drawings and construction documentation.</strong> We work across commercial, industrial, educational, hospitality, infrastructure and complex steel projects.</p>
+<p>At CadenStar, BIM is more than creating a 3D model. It is about <strong>connecting people, disciplines and information</strong> so project teams can identify issues earlier, make informed decisions and reduce costly rework during construction.</p>
+<p class="global-connect-line"><strong>Collaborate Globally. Coordinate Better. Build with Confidence.</strong></p>
 </div>
 <div class="intro-visual reveal">
-<img alt="CadenStar BIM coordination model" decoding="async" loading="lazy" src="assets/images/about-bim-model.png"/>
+<img alt="CadenStar BIM coordination model" decoding="async" loading="lazy" src="assets/images/bim-coordination-model.png"/>
 <div class="floating-card">
-<b>
-        10+ yrs
-       </b>
-<span>
-        Practical BIM &amp; detailing experience
-       </span>
+<b>10+ yrs</b>
+<span>Practical BIM &amp; detailing experience</span>
 </div>
 </div>
 </div>
 </section>
-<section class="ppt-section home-founder" id="founder">
-<div class="container">
-<div class="leader-card reveal">
-<img alt="Shamala Lokesh, Founder of CadenStar" decoding="async" loading="lazy" src="assets/images/founder-card.jpg"/>
-<div>
-<div class="founder-name-static">Shamala Lokesh — Founder</div>
-<h3>
-        Collaborate. Clash Detect. Construct.
-       </h3>
-<p class="founder-tagline">We don't just create BIM models. We help teams build with confidence.</p>
-<p>
-        CadenStar is a globally collaborating BIM partner providing BIM modelling, architectural BIM and MEP coordination support for architects, builders and consultants across international project environments.
-       </p>
-<p>
-        Whether you're an architect, builder, structural consultant, MEP consultant, or steel fabricator, CadenStar collaborates with project teams globally, with recommendations and delivery shaped around the actual project scope.
-       </p>
-<div class="founder-actions"><a class="btn btn-primary founder-email-btn" href="mailto:ShamalaLokesh@CadenStar.com">
-        Email CadenStar
-        <i class="fa-solid fa-arrow-right"></i>
-</a><a class="btn btn-outline founder-linkedin" href="https://www.linkedin.com/in/buildwithshamala?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" rel="noopener" target="_blank">Connect on LinkedIn</a></div></div>
-</div>
-</div>
-</section><section class="global-collaboration" id="global-collaboration">
+<section class="global-collaboration" id="global-collaboration">
 <div class="container global-collab-inner">
 <div class="global-globe reveal">
 <img alt="Global collaboration globe" decoding="async" loading="lazy" src="assets/images/global-collaboration-globe.jpg"/>
@@ -311,6 +272,21 @@
 </div>
 </div>
 </div>
+</section><section class="ppt-section home-founder" id="founder">
+<div class="container">
+<div class="leader-card reveal">
+<img alt="Shamala Lokesh, Founder of CadenStar" decoding="async" loading="lazy" src="assets/images/founder-transparent.png"/>
+<div>
+<div class="founder-name-static">Shamala Lokesh — Founder &amp; Director</div>
+<h3>Collaborate | Clash Detect | Construct</h3>
+<p class="founder-tagline">We don’t just create BIM models. We help teams build with confidence.</p>
+<p>With more than <strong>20 years of industry experience</strong> and <strong>10+ years of entrepreneurial leadership</strong>, We have partnered with architects, structural engineers, builders, contractors, developers, and steel fabricators across India, the UK, the US, and the Middle East. Her mission is to transform complex construction challenges into coordinated, data-driven project delivery.</p>
+<p><strong>Our objective is simple:</strong><br/>Identify problems digitally → Coordinate earlier → Reduce rework → Build with greater confidence.</p>
+<p>Whether you are an <strong>architect, structural consultant, MEP consultant, builder, contractor or steel fabricator</strong>, CadenStar becomes an extension of your project team—bringing the right BIM expertise, processes and resources to support projects from <strong>design through construction.</strong></p>
+<div class="founder-actions"><a class="btn btn-primary founder-email-btn" href="mailto:ShamalaLokesh@CadenStar.com">Email CadenStar <i class="fa-solid fa-arrow-right"></i></a><a class="btn btn-outline founder-linkedin" href="https://www.linkedin.com/in/buildwithshamala?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" rel="noopener" target="_blank">Connect on LinkedIn</a></div>
+</div>
+</div>
+</div>
 </section>
 <section class="home-solutions" id="home-solutions">
 <div class="container">
@@ -325,9 +301,6 @@
 <a class="home-solution-card reveal" href="solutions.html#shop-fabrication-drawings"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-pen-ruler"></i></span><div><h3>Shop &amp; Fabrication Drawings</h3><p>Production-ready drawings for manufacturing and installation.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
 <a class="home-solution-card reveal" href="solutions.html#mep-hvac-coordination"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-wind"></i></span><div><h3>MEP &amp; HVAC Coordination</h3><p>Coordinate MEP and HVAC services for clear, buildable project information.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
 <a class="home-solution-card reveal" href="solutions.html#structural-bim"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-building"></i></span><div><h3>Structural BIM</h3><p>Coordinated structural models for engineering, detailing and construction workflows.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
-<a class="home-solution-card reveal" href="solutions.html#cad-documentation"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-drafting-compass"></i></span><div><h3>CAD Documentation</h3><p>Clear 2D technical drawings for design, coordination and project documentation.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
-<a class="home-solution-card reveal" href="solutions.html#structural-design-analysis"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-chart-line"></i></span><div><h3>Structural Design Analysis</h3><p>Review structural intent, coordination and constructability before execution.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
-<a class="home-solution-card reveal" href="solutions.html#project-coordination"><div class="home-solution-card-top"><span class="cs-ico"><i aria-hidden="true" class="fa-solid fa-diagram-project"></i></span><div><h3>Project Coordination</h3><p>Connect design, fabrication and site teams through coordinated BIM information.</p></div></div><div class="home-solution-card-link"><span>View complete scope</span><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></div></a>
 </div>
 </div>
 </section>
@@ -337,8 +310,8 @@
 <div class="footer-grid">
 <div>
 <a class="brand active" href="index.html">
-<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/image-01.png">
-</img></a>
+<img alt="CadenStar BIM Solutions logo" class="brand-logo" decoding="async" loading="lazy" src="assets/images/cadenstar-logo.png"/>
+</a>
 <p>
        Intelligent BIM coordination and engineering documentation for builders, architects, consultants and steel fabricators — from design intent to construction-ready delivery.
       </p>
@@ -377,7 +350,7 @@
 </li>
 </ul>
 </div>
-<div><h4>Solutions</h4><ul><li><a href="solutions.html#bim-modelling">BIM Modelling</a></li><li><a href="solutions.html#clash-detection">Clash Detection</a></li><li><a href="solutions.html#quantity-take-off">Quantity Take-Off</a></li><li><a href="solutions.html#steel-detailing">Steel Detailing</a></li><li><a href="solutions.html#construction-coordination">Construction Coordination</a></li><li><a href="solutions.html#shop-fabrication-drawings">Shop &amp; Fabrication Drawings</a></li><li><a href="solutions.html#mep-hvac-coordination">MEP &amp; HVAC Coordination</a></li><li><a href="solutions.html#structural-bim">Structural BIM</a></li><li><a href="solutions.html#cad-documentation">CAD Documentation</a></li><li><a href="solutions.html#structural-design-analysis">Structural Design Analysis</a></li><li><a href="solutions.html#project-coordination">Project Coordination</a></li></ul></div>
+<div><h4>Solutions</h4><ul><li><a href="solutions.html#bim-modelling">BIM Modelling</a></li><li><a href="solutions.html#clash-detection">Clash Detection</a></li><li><a href="solutions.html#quantity-take-off">Quantity Take-Off</a></li><li><a href="solutions.html#steel-detailing">Steel Detailing</a></li><li><a href="solutions.html#construction-coordination">Construction Coordination</a></li><li><a href="solutions.html#shop-fabrication-drawings">Shop &amp; Fabrication Drawings</a></li><li><a href="solutions.html#mep-hvac-coordination">MEP &amp; HVAC Coordination</a></li><li><a href="solutions.html#structural-bim">Structural BIM</a></li></ul></div>
 <div>
 <h4>
        Contact

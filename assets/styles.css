@@ -406,7 +406,8 @@
     .hostel-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;align-items:center}
     .hostel-images{display:grid;gap:12px}
     .hostel-images img{border-radius:18px;border:1px solid #dce5ed}
-    .real-project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .project-description{max-width:980px;margin:-20px auto 42px;color:var(--muted);font-size:15px;line-height:1.8}.project-description p{margin:0 0 16px}.project-description strong{color:var(--ink)}
+.real-project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
     .real-project-card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
     .real-project-card img{height:190px;object-fit:cover}
     .real-project-card .rpcopy{padding:18px}
@@ -421,7 +422,7 @@
     .client-logo img{max-height:90px;max-width:90%;object-fit:contain}
     .contact-feature{display:grid;grid-template-columns:1fr .75fr;gap:25px;align-items:center}
     .leader-card{background:linear-gradient(145deg,#07111f,#12345a);border-radius:24px;padding:18px;color:#fff;display:grid;grid-template-columns:minmax(320px,.9fr) 1.1fr;gap:22px;align-items:center}
-    .leader-card img{width:100%;height:420px;object-fit:cover;object-position:center top;border-radius:18px;background:#07111f;display:block}
+    .leader-card img{width:100%;height:420px;object-fit:cover;object-position:center top;border-radius:18px;background:transparent;display:block}
     .leader-card h3{font-family:Manrope;font-size:28px}
     .leader-card p{color:#c8d4e1;font-size:13px;margin:9px 0 16px}
     @media(max-width:980px){
@@ -696,7 +697,7 @@ img{max-width:100%;height:auto}
   .hero h1{font-size:clamp(36px,10vw,48px)!important}
   .hero p,.page-hero p{font-size:15px;line-height:1.65}
   .leader-card{padding:12px!important;border-radius:18px!important;gap:16px!important}
-  .leader-card img{height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:#07111f}
+  .leader-card img{height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;background:transparent}
   .leader-card h3{font-size:25px!important;line-height:1.15}
   .leader-card p{font-size:14px;line-height:1.7}
   .founder-actions{gap:10px}
@@ -887,3 +888,14 @@ img{max-width:100%;height:auto}
 .field input.invalid{border-color:#d64545!important;box-shadow:0 0 0 3px rgba(214,69,69,.12)}
 .field-error{display:block;margin-top:6px;font-size:12px;line-height:1.4;color:#c23434}
 .field-error:empty{display:none}
+
+/* Requested CadenStar layout refinements */
+#workflow .workflow-section-head{grid-template-columns:1fr}
+#workflow .workflow-section-head p{display:none}
+.home-about .intro-copy{min-width:0;text-align:left}
+.home-about .intro-copy p{max-width:760px;line-height:1.75;text-align:left}
+.home-about .intro-copy p:not(.global-connect-line){margin:0 0 16px}
+.home-about .intro-copy h2{margin-bottom:24px}
+.cc-btn #ccGlobe{color:var(--accent);margin-right:4px}
+
+.hero-break{display:block}
